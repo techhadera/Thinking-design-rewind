@@ -1,0 +1,20 @@
+{
+  "name": "thinking-design-rewind",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "style": "sass src/sass/style.scss src/sass/style.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/techhadera/Thinking-design-rewind.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/techhadera/Thinking-design-rewind/issues"
+  },
+  "homepage": "https://github.com/techhadera/Thinking-design-rewind#readme"
+}
