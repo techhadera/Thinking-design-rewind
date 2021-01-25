@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/techhadera/Thinking-design-rewind/issues"
   },
-  "homepage": "https://github.com/techhadera/Thinking-design-rewind#readme"
+  "homepage": "https://github.com/techhadera/Thinking-design-rewind#readme",
+  "dependencies": {
+    "normalize-scss": "^7.0.1"
+  }
 }
