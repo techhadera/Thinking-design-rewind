@@ -1,6 +1,15 @@
+@import '../../node_modules/normalize-scss/sass/normalize';
+@include normalize();
+
+@import './vendors-extensions/reset';
+
 @import 'abstract/constants';
+@import 'abstract/placeholders';
+@import 'abstract/mixins';
+
 @import 'base/base';
 @import 'base/buttons';
+@import 'base/logo';
 
 @import 'layouts/wrapper';
 @import 'layouts/header';
