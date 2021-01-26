@@ -1,0 +1,70 @@
+.icon {
+    cursor: pointer;
+    display: inline-flex;
+
+    &_play {
+        background-image: url('../img/promo/icons/play.svg');
+        margin-right: 9px;
+        width: 18px;
+        height: 19px;
+    }
+
+    &_cursor {
+        width: 12px;
+        height: 17px;
+        background-image: url('../img/tools/icons/cursor.svg');
+    }
+
+    &_wave {
+        width: 18px;
+        height: 18px;
+        background-image: url('../img/tools/icons/wave.svg');
+    }
+
+    &_heart {
+        margin-left: 3px;
+        width: 19px;
+        height: 18px;
+        background-image: url('../img/tools/icons/heart.svg');
+    }
+
+    &_clock {
+        margin-left: 3px;
+        width: 16px;
+        height: 18px;
+        background-image: url('../img/tools/icons/clock.svg');
+    }
+
+    &_phone {
+
+    }
+
+    &_mail {
+
+    }
+}
+
+.icon-square {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 19px;
+
+    &_yellow {
+        background-color: $color-yellow;
+    }
+    
+    &_violet {
+        background-color: $color-violet;
+    }
+
+    &_red {
+        background-color: $color-red;
+    }
+
+    &_blue {
+        background-color: $color-blue;
+    }
+}

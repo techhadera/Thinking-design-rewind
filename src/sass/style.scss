@@ -9,10 +9,17 @@
 
 @import 'base/base';
 @import 'base/buttons';
+@import 'base/icons';
 @import 'base/logo';
+@import 'base/tags';
 
 @import 'layouts/wrapper';
 @import 'layouts/header';
+@import 'layouts/columns';
 
-@import 'components/contact-us';
+@import 'components/navigation';
 @import 'components/promo';
+@import 'components/tools';
+@import 'components/contact-us';
+@import 'components/tools';
+@import 'components/strategies';

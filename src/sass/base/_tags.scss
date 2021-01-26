@@ -1,0 +1,28 @@
+.tags {
+    display: flex;
+
+    >* {
+       margin-right: 7px; 
+    }
+}
+
+.tag {
+    padding: 0px 14px;
+    border-radius: 90px;
+    @include font(1.3rem, 2.8rem, 400);
+    color: $color-text;
+
+    &_selected {
+        background-color: $color-brand;
+        color: $color-light;
+    }
+    
+    &_bordered {
+        background-color: $color-light;
+        border: 1px solid $color-border;
+    }
+
+    &_colored {
+        background-color: $color-tag;
+    }
+}

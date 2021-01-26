@@ -1,0 +1,17 @@
+.navigation {
+    display: flex;
+    font-size: 1.5rem;
+    line-height: 28px;
+}
+
+.navigation li {
+    padding: 0px 10px;
+    list-style: none;
+    cursor: pointer;
+    color: $color-heading;
+    @extend %transition;
+
+    &:hover {
+        color: $color-brand;
+    }
+}
