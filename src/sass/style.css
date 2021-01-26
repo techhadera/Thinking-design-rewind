@@ -694,7 +694,7 @@ h5 {
   flex-wrap: wrap;
 }
 .layout-2-column > * {
-  flex-basis: 45%;
+  flex-basis: 48%;
 }
 
 .navigation {
@@ -791,6 +791,30 @@ h5 {
 
 .contact-us {
   background-color: #FFEEE1;
+}
+
+.contact-us__form input, .contact-us__form textarea {
+  padding: 10px 21px;
+  background-color: #fff;
+  border: 1px solid #fff;
+  border-radius: 5px;
+}
+.contact-us__form input:focus, .contact-us__form textarea:focus {
+  border: #FF9900;
+  outline: none;
+}
+.contact-us__form textarea {
+  width: 100%;
+  height: 160px;
+  resize: none;
+}
+
+.contact-us__line {
+  margin-bottom: 19px;
+}
+
+.contact-us__button > * {
+  min-width: 117px;
 }
 
 .tools {
