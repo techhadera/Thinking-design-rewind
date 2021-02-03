@@ -198,34 +198,30 @@
 
     <section class="about-us">
         <div class="wrapper">
-            <h2>About Us</h2>
-            <p class="abous-us__description">Your About Us page is vital. It’s often the first stop in any user’s
-                journey through a website or blog. It also shouldn’t be their last, because first impressions count
-                online just as much as they do in the real world. If your visitors aren’t impressed, you can expect them
-                to leave without reading your awesome content or completing a conversion action (e.g., signing up for
-                your newsletter, making a purchase).</p>
-            <div class="layout-3-column">
+            <h2 class="about-us__title">About Us</h2>
+            <p class="about-us__description">Your About Us page is vital. It’s often the first stop in any user’s journey through a website or blog. It also shouldn’t be their last, because first impressions count online just as much as they do in the real world. If your visitors aren’t impressed, you can expect them to leave without reading your awesome content or completing a conversion action (e.g., signing up for your newsletter, making a purchase).</p>
+            <div class="layout-3-column employee-container">
                 <div class="employee block-shadowed">
                     <div class="employee__content">
-                        <h5>Kathy Rosenberg</h5>
+                        <h5 class="employee__name">Kathy Rosenberg</h5>
                         <p class="employee__title">Product Manager</p>
-                        <a href="mailto:kathyr@gmail.com">kathyr@gmail.com</a>
+                        <a class="employee__contact" href="mailto:kathyr@gmail.com">kathyr@gmail.com</a>
                     </div>
                     <img class="employee__photo" src="./img/about-us/kathy.png" alt="Kathy Rosenberg">
                 </div>
                 <div class="employee block-shadowed">
                     <div class="employee__content">
-                        <h5>Alexandra Boyarskaya</h5>
+                        <h5 class="employee__name">Alexandra Boyarskaya</h5>
                         <p class="employee__title">Support Marketing Specialist</p>
-                        <a href="mailto:alexandrab@gmail.com">alexandrab@gmail.com</a>
+                        <a class="employee__contact" href="mailto:alexandrab@gmail.com">alexandrab@gmail.com</a>
                     </div>
                     <img class="employee__photo" src="./img/about-us/alexandra.png" alt="Alexandra Boyarskaya">
                 </div>
                 <div class="employee block-shadowed">
                     <div class="employee__content">
-                        <h5>Melani Amini</h5>
+                        <h5 class="employee__name">Melani Amini</h5>
                         <p class="employee__title">Photographer</p>
-                        <a href="mailto:melania@gmail.com">melania@gmail.com</a>
+                        <a class="employee__contact" href="mailto:melania@gmail.com">melania@gmail.com</a>
                     </div>
                     <img class="employee__photo" src="./img/about-us/melani.png" alt="Melani Amini">
                 </div>
@@ -235,20 +231,16 @@
 
     <section class="contact-us">
         <div class="wrapper">
-            <h2>Contact Us</h2>
-            <div class="layout-2-column">
+            <h2 class="contact-us__title">Contact Us</h2>
+            <div class="layout-2-column contact-us-container">
                 <div class="contact-us__content">
-                    <p>Your About Us page is vital. It’s often the first stop in any user’s journey through a website or
-                        blog. It also shouldn’t be their last, because first impressions count online just as much as
-                        they do in the real world. If your visitors aren’t impressed, you can expect them to leave
-                        without reading your awesome content or completing a conversion action (e.g., signing up for
-                        your newsletter, making a purchase).</p>
-                    <p>
-                        <span class="icon icon_phone"></span>
-                        <a href="tel:+375223450099">+375 (22) 345-00-99</a>
+                    <p class="contact-us__text">Your About Us page is vital. It’s often the first stop in any user’s journey through a website or blog. It also shouldn’t be their last, because first impressions count online just as much as they do in the real world. If your visitors aren’t impressed, you can expect them to leave without reading your awesome content or completing a conversion action (e.g., signing up for your newsletter, making a purchase).</p>
+                    <p class="contact-us__link">
+                        <span class="icon-round icon-round_white"><span class="icon icon_phone"></span></span>
+                        <a href="tel:+375111111111">+375 (22) 345-00-99</a>
                     </p>
-                    <p>
-                        <span class="icon icon_mail"></span>
+                    <p class="contact-us__link">
+                        <span class="icon-round icon-round_white"><span class="icon icon_mail"></span></span>
                         <a href="mailto:emailname@gmail.com">emailname@gmail.com</a>
                     </p>
                 </div>
@@ -258,7 +250,7 @@
                             <input type="text" name="name" placeholder="Your name">
                             <input type="email" name="email" placeholder="Your email">
                         </div>
-                        <textarea class="contact-us__line" name="question" cols="30" rows="10" placeholder="What do you want to ask?"></textarea>
+                        <textarea name="question" placeholder="What do you want to ask?" class="contact-us__line"></textarea>
                         <div class="contact-us__button">
                             <button type="submit" class="button button_colored">Send</button>
                         </div>
@@ -269,15 +261,15 @@
     </section>
 
     <footer class="footer">
-        <div class="wrapper">
-            <div class="layout-4-column">
-                <a href="#" class="logo">
-                    <object type="image/svg+xml" data="./img/logo.svg" class="logo-object">
-                        Your browser does not support SVG
-                    </object>
-                </a>
-                <div class="footer-navigation">
-                    <h4>Quick Links</h4>
+        <div class="wrapper footer__wrapper">
+            <a href="#" class="logo">
+                <object type="image/svg+xml" data="./img/logo.svg" class="logo-object">
+                    Your browser does not support SVG
+                 </object>
+            </a>
+            <div class="footer-navigation layout-3-column">
+                <div class="footer-navigation__column">
+                    <h4 class="footer-navigation__title">Quick Links</h4>
                     <ul class="footer-navigation__links">
                         <li><a href="#">About Us</a></li>
                         <li><a href="#">Blog</a></li>
@@ -285,17 +277,17 @@
                         <li><a href="#">FAQ</a></li>
                     </ul>
                 </div>
-                <div class="footer-navigation">
-                    <h4>Legal Stuff</h4>
+                <div class="footer-navigation__column">
+                    <h4 class="footer-navigation__title">Legal Stuff</h4>
                     <ul class="footer-navigation__links">
-                        <li><a href="#">Disclaimer</a></li>
+                        <li><a href="#">Disclamer</a></li>
                         <li><a href="#">Financing</a></li>
                         <li><a href="#">Privacy Policy</a></li>
                         <li><a href="#">Terms of Service</a></li>
                     </ul>
                 </div>
-                <div class="footer-navigation">
-                    <h4>Quick Links</h4>
+                <div class="footer-navigation__column">
+                    <h4 class="footer-navigation__title">Quick Links</h4>
                     <ul class="footer-navigation__links">
                         <li><a href="#">About Us</a></li>
                         <li><a href="#">Blog</a></li>

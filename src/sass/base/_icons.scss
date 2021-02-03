@@ -36,11 +36,15 @@
     }
 
     &_phone {
-
+        background-image: url("../img/contact-us/icons/phone.svg");
+        width: 13px;
+        height: 13px;
     }
 
     &_mail {
-
+        background-image: url("../img/contact-us/icons/mail.svg");
+        width: 11px;
+        height: 8px;
     }
 }
 
@@ -66,5 +70,17 @@
 
     &_blue {
         background-color: $color-blue;
+    }
+}
+
+.icon-round {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    &_white {
+        background-color: $color-light;
     }
 }
